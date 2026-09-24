@@ -4,11 +4,5 @@ title: "HEOM dynamics and neural-network inverse model for endohedral fullerene 
 authors:
   - family-names: Chandrasekaran
     given-names: S.
-  - family-names: Simahudeen
-    given-names: Bathir J.
-  - family-names: Parameswaran
-    given-names: S.
-  - family-names: Anandan
-    given-names: S.
-license: MIT
-repository-code: "https://github.com/<your-account>/heom-endohedral-fullerenes"
+    affiliation: "SRM Institute of Science and Technology, Kattankulathur"
+repository-code: "https://github.com/schandrase/heom-endohedral-fullerenes"
