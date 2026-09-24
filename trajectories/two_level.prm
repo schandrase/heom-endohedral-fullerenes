@@ -1,0 +1,29 @@
+# Two-level system -- parameter values from the PHI 1.0 User's Guide
+# (energies cm^-1, gamma ps^-1, times ps, temperature K)
+OutputFile=two_level.out
+
+NumStates=2
+NumCouplingTerms=2
+
+Hamiltonian:
+0.0  ,100.0
+100.0, 20.0
+
+InitialDensityMatrix:
+(1.0,0.0),(0.0,0.0)
+(0.0,0.0),(0.0,0.0)
+
+# independent Drude bath on each site
+lambda:
+100.0,100.0
+gamma:
+10.0,10.0
+
+Temperature=300
+MatsubaraTerms=2
+HierarchyTruncation=6
+TimeLocal=0
+
+Timestep=0.005
+Time=1.0
+RKF45tolerance=1e-8

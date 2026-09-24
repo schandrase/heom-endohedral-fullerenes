@@ -1,0 +1,17 @@
+# Two-level system, 300 K, Drude bath
+OutputFile=TLS-Dynamics_300K_lambda10.out
+NumStates=2
+HierarchyTruncation=10
+Temperature=300
+Hamiltonian:
+28887.5,-79.4138
+-79.4138,28868.4
+InitialDensityMatrix:
+1.0,0.0
+0.0,0.0
+gamma:
+10,10
+lambda:
+10,10
+Timestep=0.0001
+Time=10
