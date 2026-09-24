@@ -47,8 +47,8 @@ reverses the sign of 𝒱₁₂ while leaving ρ₁₁(t) unchanged.
     code/heom_tls_si.py            standalone HEOM propagation of both dimers + figures
     code/ann_inverse.py            training-set construction and the inverse neural network
     code/phi_compat/phi_heom.py    reads PHI-format .prm parameter files and runs them through QuTiP
-    data/trajectories/*.prm        PHI-format input files, one per reorganisation energy
-    data/trajectories/*_1fs.dat    trajectories on a 1 fs grid (see note below)
+    trajectories/*.prm             PHI-format input files, one per reorganisation energy
+    trajectories/*_1fs.dat         trajectories on a 1 fs grid (see note below)
     data/ann/ann_dataset.npz       population-only training corpus  (X: 3000x401,  theta: 3000x3)
     data/ann/ann_dataset_coherence.npz  three-channel corpus        (X: 3000x1203, theta: 3000x3)
     figures/                       figures as published (PDF) plus raster previews
@@ -73,7 +73,7 @@ takes roughly 30 minutes on a CPU:
 
 Run a PHI-format input file through the QuTiP engine:
 
-    python code/phi_compat/phi_heom.py data/trajectories/TLS-Dynamics_300K_lambda3.9.prm rkf45
+    python code/phi_compat/phi_heom.py trajectories/TLS-Dynamics_300K_lambda3.9.prm rkf45
 
 ## Notes on the data
 
