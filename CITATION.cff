@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the accompanying article."
+title: "HEOM dynamics and neural-network inverse model for endohedral fullerene dimers"
+authors:
+  - family-names: Chandrasekaran
+    given-names: S.
+  - family-names: Simahudeen
+    given-names: Bathir J.
+  - family-names: Parameswaran
+    given-names: S.
+  - family-names: Anandan
+    given-names: S.
+license: MIT
+repository-code: "https://github.com/<your-account>/heom-endohedral-fullerenes"

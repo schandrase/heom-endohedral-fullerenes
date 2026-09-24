@@ -1,0 +1,12 @@
+name: heom
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - qutip=5.3.1
+  - numpy
+  - scipy
+  - matplotlib
+  - scikit-learn
+  - h5py
+  - pandas
