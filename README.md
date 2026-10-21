@@ -98,7 +98,6 @@ reporting uncertainty rather than a point estimate.
 
 ## Citation
 
-If you use this code or data, please cite the accompanying paper (see `CITATION.cff` once the DOI is
-assigned) and the underlying software: QuTiP (Johansson, Nation & Nori, *Comput. Phys. Commun.* 184,
+If you use this code or data, please cite the accompanying paper (cite: https://doi.org/10.26434/chemrxiv.15010743/v1) and the underlying software: QuTiP (Johansson, Nation & Nori, *Comput. Phys. Commun.* 184,
 1234 (2013)), its HEOM solver (Lambert et al., *Phys. Rev. Research* 5, 013181 (2023)) and
 scikit-learn (Pedregosa et al., *J. Mach. Learn. Res.* 12, 2825 (2011)).
